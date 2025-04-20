@@ -1,0 +1,68 @@
+body {
+    background-color: #fc9fe6;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    padding: 40px;
+  }
+  
+  h1 {
+    color: #3f0226;
+    text-align: left;
+    background-color: rgb(155, 10, 136);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    font-size: 25px;
+    font-weight: bold;
+    max-width: 2000px;
+}
+  p {
+    color: #49041f;
+    font-size: 18px;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    max-width: 480px;
+  }
+  h2 {
+    color: #3f0226;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: black;
+    font-size: 25px;
+    font-weight: bold;
+    max-width: 480px;
+}
+h3 {
+    color: #3f0226;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: black;
+    font-size: 25px;
+    font-weight: bold;
+    max-width: 480px;
+}
+.contenedor {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start; /* Alinea la parte de arriba */
+  }
+  
+  .imagen {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(59, 48, 48, 0.5);
+  }
+  
+  .texto {
+    display: flex;
+    flex-direction: column; /* Apila los h2 uno debajo de otro */
+    gap: 10px; /* Espacio entre los títulos */
+  }
