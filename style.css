@@ -27,7 +27,7 @@ body {
     max-width: 480px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   }
-  p1 {
+  .p1 {
     color: #49041f;
     font-size: 23px;
     border-radius: 10px;
@@ -37,7 +37,7 @@ body {
     font-weight: bold;
     width: 100%;
     max-width: 2000px;
-    height: 100px;
+    height: 30px;
   }
   h2 {
     color: #3f0226;
