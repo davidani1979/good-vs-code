@@ -127,3 +127,37 @@ h3 {
     body {
       padding-top: 60px; 
     }
+    .menu-toggle {
+      display: none;
+      font-size: 28px;
+      color: white;
+      cursor: pointer;
+      padding: 0 20px;
+    }
+    
+    @media (max-width: 768px) {
+      .navbar ul {
+        display: none;
+        flex-direction: column;
+        background-color: #3f0226;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        left: 0;
+      }
+    
+      .navbar ul.active {
+        display: flex;
+      }
+    
+      .menu-toggle {
+        display: block;
+      }
+    
+      .navbar {
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        display: flex;
+      }
+    }
