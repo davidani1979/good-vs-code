@@ -7,9 +7,19 @@
     <title>Mi sitio web</title>
 </head>
 <body>
+  <nav class="navbar">
+    <div class="menu-toggle" id="menu-toggle"></div>
+    ☰
+  </div>
+    <ul id="navbar-list">
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
   <header>
  <h1>Mi sitio web</h1>
- <p class="p1">Para que servirá? Para enseñarme los comandos básicos y la fácil utilización de todo.</p>
+ <p class="p1">Para que servirá? Para enseñarme los comandos básicos.</p>
 </header>
 <hr>
  <br>
@@ -19,18 +29,20 @@
     alt="Foto de una página web en un ordenador"  class="imagen">
   <section>
     <div class="subtitulos">
-    <h2 class="titulo">Sobre mí</h2>
+    <h2 id="sobre-mi" class="titulo">Sobre mí</h2>
         <p>Hola, soy una persona aprendiendo desarrollo web.</p>
-        <h2 class="titulo">Proyectos</h2>
+        <h2 id="proyectos" class="titulo">Proyectos</h2>
         <p>Aquí pondré mis proyectos futuros.</p>
       </div>
     </div>
     <br>
     <a href="https://www.creaxid.com.mx/blog/wp-content/uploads/2020/12/sitio-web-2048x1365.jpg" target="_blank">Ver imagen completa</a>
     <button onclick="alert('Eres un pringao.')">Clica aquí</button>
-    <section>
+    <section id="contacto">
       <h3>Contacto</h3>
-      <p>Puedes contactar conmigo con el siguiente correo d33432154@gmail.com</p></section>      
+      <p>Puedes contactar conmigo con el siguiente correo d33432154@gmail.com</p></section>
+      <script src="js/script.js"></script>
+</body>
 </html>
   
 
