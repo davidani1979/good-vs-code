@@ -90,4 +90,10 @@ h3 {
       .imagen {
         width: 100%;
       }
+      .p1 {
+        font-size: 18px;
+        padding: 8px;
+        max-width: 100%;
+        text-align: center;
+      }
     }
